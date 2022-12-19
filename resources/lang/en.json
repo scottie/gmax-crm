@@ -1,0 +1,116 @@
+{
+    "Login_to_your_account" : "Login to your account",
+    "Email_address" : "Email address",
+    "I_forgot_password" : "I forgot password",
+    "Password" : "Password",
+    "Remember_me_on_this_device" : "Remember me on this device",
+    "Sign_In" : "Sign In",
+    "Forgot_your_password_Note" : "Forgot your password? No problem. Just let us know your email address and we will email you a password reset link that will allow you to choose a new one.",
+    "Email_Password_Reset_Link" : "Email Password Reset Link",
+
+
+    "Clients" : "Clients",
+    "Client_Manager" : "Client Manager",
+    "Add_New_Client" : "Add New Client",
+    "Invoices" : "Invoices",
+    "Quotation" : "Quotation",
+    "Projects" : "Projects",
+    "Admin_Panel" : "Admin Panel",
+    "Admin_Manager" : "Admin Manager",
+    "Settings" : "Settings",
+    "Edit_profile" : "Edit Profile",
+    "Logout" : "Logout",
+    "No_Notifications" : "No Notifications",
+    "Accounts_Summary" : "Account Summary",
+    "File_Manager" : "File Manager",
+
+    
+    "Unpaid_Invoices" : "Unpaid Invoices",
+    "Paid_Invoices" : "Paid Invoices",
+    "Quotes" : "Quotes",
+    "Active_Projects" : "Active Projects",
+    "Invoice_summary" : "Invoice summary",
+    "Project_summary" : "Project summary",
+    "Advanced_search" : "Advanced Search",
+    "My_Tasks" : "My Tasks",
+    "Cancel" : "Cancel",
+    "Close" : "Close",
+
+    "Not_Started" : "Not Started",
+    "In_Progress" : "In Progress",
+    "In_Review" : "In Review",
+    "Completed" : "Completed",
+    "In_Hold" : "In Hold",
+    "Canceled" : "Canceled",
+
+    "Create_new_invoice" : "Create New Invoice",
+    "INVO_ID" : "INVO ID",
+    "TITLE" : "TITLE",
+    "CLIENT" : "CLIENT",
+    "DATE" : "DATE",
+    "DUE_DATE" : "DUE_DATE",
+    "AMOUNT" : "AMOUNT",
+    "PAID" : "PAID",
+    "STATUS" : "STATUS",
+    "Showing" : "Showing",
+    "entries" : "entries",
+    "Edit_Invoice" : "Edit Invoice",
+    "Delete_Invoice" : "Delete Invoice",
+    "Invoice_Manager" : "Invoice Manager",
+    "Unpaid" : "Unpaid",
+    "PartPaid" : "Part Paid",
+    "Paid" : "Paid",
+    "Invoice_title" : "Invoice Title",
+    "Select_Client" : "Select Client",
+    "Create_Invoice" : "Create Invoice",
+   
+    
+
+
+    "Name" : "Name",
+    "Email" : "Email",
+    "Phone" : "Phone",
+    "Business_Name" : "Business_Name",
+    "Tax_ID" : "Tax_ID",
+    "Address" : "Address",
+    "Address_Line_2" : "Address Line 2",
+    "City" : "City",
+    "State" : "State",
+    "Country" : "Country",
+    "Select_Country" : "Select Country",
+    "ZIP_Code" : "ZIP Code", 
+    "Business" : "Business",
+    "Added" : "Added",
+    "Edit_Client" : "Edit Client",
+    "Delete_Client" : "Delete Client",
+
+    "Project_Manager" : "Project Manager",
+    "ID" : "ID",
+    "START_DATE" : "START DATE",
+    "DEADLINE" : "DEADLINE",
+    "Create_New_Project" : "Create New Project",
+    "Project_Title" : "Project Title",
+    "Days_Left" : "Days Left",
+    "Edit_Project" : "Edit Project",
+    "Delete_Project" : "Delete Project",
+    "Update_Project_Status" : "Update Project Status",
+    "Overview" : "Overview",
+    "Tasks" : "Tasks",
+    "Notes" : "Notes",
+    "Menu" : "Menu",
+    "Project_Tasks" : "Project Tasks",
+    "Project_Note" : "Project Note",
+    "Last_Updated" : "Last Updated"
+
+
+
+
+
+
+
+
+
+
+ 
+
+}
