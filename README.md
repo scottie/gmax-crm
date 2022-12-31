@@ -1,15 +1,17 @@
 ## Introduction
 Gmax CRM is an open source invoicing and customer relationship management software designed to help businesses streamline and manage their invoicing and customer interactions. With Gmax CRM, you can easily create and send invoices, track payments, and manage customer information all in one place.
+
 ![Gmax Light Mode](https://i.ibb.co/vxQhTqC/image.png)
 
-| Demo Link | https://gmax.codeconia.com/ 
-|Username   |  admin@admin.com                
-|Passoword  |   123456                      
+
+Demo Link  https://gmax.codeconia.com/
+Username :      admin@admin.com             
+Passoword :  123456                
 
 ## Installation 
 **Requirements**
-PHP 7.4 
-Build with Laravel 8
+PHP 7.4, 
+Build with Laravel 8,
 MySQL
 
 ***Cpanel Installation Video : https://youtu.be/WrnTyDLSYe8***    
