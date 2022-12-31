@@ -1,4 +1,5 @@
 ## Introduction
+![enter image description here](https://www.codester.com/static/uploads/items/000/038/38543/preview-xl.jpg)
 Gmax CRM is an open source invoicing and customer relationship management software designed to help businesses streamline and manage their invoicing and customer interactions. With Gmax CRM, you can easily create and send invoices, track payments, and manage customer information all in one place.
 
 ![Gmax Light Mode](https://i.ibb.co/vxQhTqC/image.png)
@@ -16,7 +17,7 @@ MySQL
 
 ***Cpanel Installation Video : https://youtu.be/WrnTyDLSYe8***    
 
-## **Key features of Gmax CRM **
+## Key features of Gmax CRM 
 
 **Invoice creation and management:**
 Easily create and send invoices to your clients, with the ability to customize invoice templates and track payment status.
