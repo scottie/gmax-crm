@@ -13,20 +13,43 @@ class SettingsController extends Controller
        $setings = setting::first();
        return view('settings.settings')->with(['settings' =>$setings]);
     }
-    public function updatesettings(Request $request)
-    {
-        if($request->businessname!=NULL){
-            $settings =setting::find(1);
-            $settings->companyname =$request->businessname;  
-            if($request->logo!=NULL) {               
-                $filename    = time().'.'.$request->logo->extension();  
-                $request->logo->move(public_path('storage/uploads/'), $filename);                        
-                $settings->logo =$filename;       
-            }                  
-            $settings->save();        
+   public function updatesettings(Request $request)
+{
+    // Check if the business name is not NULL (optional)
+    if ($request->businessname != NULL) {
+        // Find the settings record
+        $settings = setting::find(1);
+        $settings->companyname = $request->businessname;
+
+        // Check if a logo file has been uploaded
+        if ($request->hasFile('logo')) {
+            $file = $request->file('logo');
+            
+            // Validate the file type to ensure it's an allowed image format (e.g., PNG, JPEG)
+            $allowedExtensions = ['png', 'jpg', 'jpeg', 'gif']; // Define allowed file extensions
+            $extension = $file->getClientOriginalExtension();
+
+            if (in_array(strtolower($extension), $allowedExtensions)) {
+                // Generate a unique filename to prevent overwriting existing files
+                $filename = uniqid() . '.' . $extension;
+
+                // Move the uploaded file to a secure directory
+                $file->move(public_path('storage/uploads/'), $filename);
+
+                // Update the settings with the new filename
+                $settings->logo = $filename;
+            } else {
+                // Handle the case when an invalid file type is uploaded
+                return redirect()->back()->with('error', 'Invalid file type. Only PNG, JPG, JPEG, and GIF are allowed.');
             }
-            return redirect()->back()->with('success', 'Software information updated'); 
+        }
+
+        // Save the updated settings
+        $settings->save();
     }
+
+    return redirect()->back()->with('success', 'Software information updated');
+}
 
     public function billingsetting(Request $request)
     {
